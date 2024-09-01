@@ -39,7 +39,7 @@ const SuccessMessage = () => {
         Merci !
       </h4>
       <p className="text-sm max-w-md text-neutral-300 md:text-base">
-        Votre courrier a enovoyer
+      Votre courrier a été envoyé
       </p>
       <div className="flex items-center mt-6">
         <div className="relative after:pointer-events-none after:absolute after:inset-px after:rounded-[11px] after:shadow-highlight after:shadow-white/10 focus-within:after:shadow-[#77f6aa] after:transition">
@@ -47,7 +47,7 @@ const SuccessMessage = () => {
             onClick={refresh}
             className="relative text-neutral-200 bg-neutral-900 border border-black/20 shadow-input shadow-black/10 rounded-xl hover:text-white"
           >
-            <RefreshCcw className="mr-2 h-4 w-4" /> Restart
+            <RefreshCcw className="mr-2 h-4 w-4" /> Retour
           </Button>
         </div>
       </div>
